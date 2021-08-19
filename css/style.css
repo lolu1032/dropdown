@@ -30,7 +30,7 @@ nav .wrapper {
 .wrapper .nav_links {
     display: inline-flex;
 }
-.nav_links li a {
+.nav_links > li > a {
     color: #fff;
     padding: 0 40px;
     font-size: 18px;
@@ -52,6 +52,7 @@ nav .wrapper {
     visibility: inherit;
 }
 .drop_menu li a {
+    color: #fff;
     width: 100%;
     display: block;
     padding: 0 0 0 15px;
